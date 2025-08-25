@@ -1,0 +1,4 @@
+model,SNIPS_margin,DR_margin,Direct_logging
+Q-Learning (full),2.816,2.765,1.582
+MBA-Markov,1.328,1.3,1.582
+Bandit-Cluster,1.21,1.255,1.582

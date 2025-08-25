@@ -1,7 +1,4 @@
 # -*- coding: utf-8 -*-
-# paper_pipeline_mba_vs_rl.py
-# Compare: Traditional Market Basket Analysis (MBA) vs RL (Contextual Bandit, Q-learning)
-# Add: Confidence intervals (bootstrap), multiple OPE estimators (SNIPS/DR), Ablations, demo plots
 
 import os, argparse, json, math, numpy as np, pandas as pd
 from collections import defaultdict, Counter
@@ -616,3 +613,4 @@ print("Outputs written to:", args.outdir)
 print("Top by SNIPS:")
 print(results[["model","SNIPS","SNIPS_CI_low","SNIPS_CI_high"]].head().to_string(index=False))
 print("\nLogging (direct):", baseline_tbl.to_dict(orient="records")[0])
+
